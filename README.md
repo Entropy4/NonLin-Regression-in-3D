@@ -1,6 +1,6 @@
 # This python program does all these:
   
-  1)  finds coefficients for the regression curve z = (b1 * y + b3)* e^(-b2 * x) + b0 :   
+  1)  finds coefficients for the regression curve z = (b1 * y)* e^(-b2 * x) + b0 :   
           where b0, b1, b2, b3 are the coefficients of regression line  
           and x, y, z are the 3 random variables  
       precision set to 5 decimal places (adjustable to any value 'n' by using 10^n wherever 10^5 used)
@@ -9,8 +9,8 @@
       Try to keep azimuth = 31 deg, elevation = 11 deg for general ease of viewing
       
   3)  simulates -from observed values- the estimated model of relation between x,y and z where they are related as
-      z = (b1 * y + b3)* e^(-b2 * x) + b0 :   
-          where b0, b1, b2, b3 are the coefficients of regression line  
+      z = (b1 * y)* e^(-b2 * x) + b0 :   
+          where b0, b1, b2 are the coefficients of regression line  
           and x, y, z are the 3 random variables  
       precision set to 5 decimal places (adjustable to any value 'n' by using 10^n wherever 10^5 used)
 
@@ -24,4 +24,4 @@ This range can be easily found out by rerunning the code and checking if the out
 #
 Code logic adapted from a currently-ongoing (as of 17-06-2020) astrophysics research paper being co-authored by op
 #
-Proper deliberation of the implementation and derivation of the solution approach can be found in the Word file "Approach to solution.docx"
+Proper deliberation of the implementation and derivation of the solution approach can be found in the Word file "Approach to solution_3Param.docx"
