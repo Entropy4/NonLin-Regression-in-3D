@@ -15,7 +15,7 @@
       precision set to 5 decimal places (adjustable to any value 'n' by using 10^n wherever 10^5 used)
 
 # Method of regression solution used: 
-Sum of Squares of Errors Minimization
+Sum of Squares of Errors Minimization (Brute Force Approach)
 
 # Important Note:   
 Due to the nonlinear nature of the model relation as well as the presence of 4 coefficients in the same, it is nigh-impossible to     actually find the real solution for the problem posed. However due to the nature of the approach taken to "solve" it, we can find the closest solution for a selected arbitrary precision value, provided the user can provide a reasonable range of values between which one of the coefficients (b2 in this implementation case) will have its true value.
